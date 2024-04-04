@@ -1,0 +1,9 @@
+*
+!.gitignore
+!main.tf
+!_*
+!user_data.sh
+
+!docs
+!docs/*
+!README.md
