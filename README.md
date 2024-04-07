@@ -1,4 +1,4 @@
-# AWS-Terraform Use Case 1
+# AWS-Terraform Simple Example
 
 A use case for needing 1 public and 1 private subnet for each of the 2 availability zones. The instances in the public subnets can access the internet through the route to the Internet Gateway while the instances in the private subnets cannot. The public instances need to be accessed by developers in a variety of ways. On the other hand, the private instances can only be accessed via an EC2 Instance Connect Endpoint.
 
